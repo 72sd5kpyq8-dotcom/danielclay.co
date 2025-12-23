@@ -1,8 +1,9 @@
 @font-face {
-  font-family: "CaliforniaSignature";
-  src: url("../fonts/CaliforniaSignature.otf") format("opentype");
+  font-family: "Mickelhogan";
+  src: url("../fonts/Mickelhogan.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+}
 }@charset "UTF-8";
 /*!
 * Start Bootstrap - Clean Blog v6.0.9 (https://startbootstrap.com/theme/clean-blog)
@@ -10811,8 +10812,8 @@ header.masthead .post-heading .meta a {
   background-color: #5F6F73 !important;
   background-image: none !important;
 }.
-}.navbar-brand {
-  font-family: "CaliforniaSignature", cursive;
-  font-weight: 300;      /* lighter */
-  font-size: 1.8rem;     /* adjust size */
+.navbar-brand {
+  font-family: "Mickelhogan", cursive;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
