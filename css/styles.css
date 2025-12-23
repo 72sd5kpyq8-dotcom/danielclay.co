@@ -10810,4 +10810,12 @@ header.masthead .post-heading .meta a {
 .navbar {
   background-color: #5F6F73 !important;
   background-image: none !important;
+}.navbar-brand {
+  font-family: "CaliforniaSignature", cursive;
+  font-weight: 300;      /* lighter */
+  font-size: 1.8rem;     /* adjust size */
+}.navbar-brand {
+  font-family: "CaliforniaSignature", cursive;
+  font-weight: 300;      /* lighter */
+  font-size: 1.8rem;     /* adjust size */
 }
