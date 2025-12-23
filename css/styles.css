@@ -1,8 +1,9 @@
 @font-face {
   font-family: "Mickelhogan";
-  src: url("../fonts/Mickelhogan.ttf") format("opentype");
+  src: url("../fonts/Mickelhogan.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
 }
 }@charset "UTF-8";
 /*!
@@ -10816,4 +10817,9 @@ header.masthead .post-heading .meta a {
   font-family: "Mickelhogan", cursive;
   font-weight: 400;
   font-size: 1.8rem;
+}
+.navbar-brand {
+  font-family: "Mickelhogan", cursive !important;
+  font-weight: 300 !important;
+  font-size: 1.6rem; /* adjust if you want */
 }
