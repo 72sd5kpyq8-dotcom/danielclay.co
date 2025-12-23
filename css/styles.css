@@ -1,4 +1,9 @@
-@charset "UTF-8";
+@font-face {
+  font-family: "CaliforniaSignature";
+  src: url("../fonts/CaliforniaSignature.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}@charset "UTF-8";
 /*!
 * Start Bootstrap - Clean Blog v6.0.9 (https://startbootstrap.com/theme/clean-blog)
 * Copyright 2013-2023 Start Bootstrap
