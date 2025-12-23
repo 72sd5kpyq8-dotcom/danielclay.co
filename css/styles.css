@@ -10799,3 +10799,10 @@ header.masthead .post-heading .meta a {
 .navbar {
   background-color: #5F6F73 !important;
 }
+/* Force navbar color */
+#mainNav,
+#mainNav.navbar-shrink,
+.navbar {
+  background-color: #5F6F73 !important;
+  background-image: none !important;
+}
