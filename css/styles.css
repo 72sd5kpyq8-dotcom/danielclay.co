@@ -10813,5 +10813,15 @@ header.masthead .post-heading .meta a {
 }.
 .navbar-brand {
   font-family: "Mickelhokan", cursive !important;
-  font-weight: 300 !important; /* less bold */
+  font-weight: 300 !important; /* less 
+@font-face {
+  font-family: "Mickelhokan";
+  src: url("../fonts/Mickelhokan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#mainNav .navbar-brand {
+  font-family: "Mickelhokan", cursive !important;
+  font-weight: 300 !important;
 }
