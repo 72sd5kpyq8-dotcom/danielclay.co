@@ -1,4 +1,9 @@
-* Start Bootstrap - Clean Blog v6.0.9 (https://startbootstrap.com/theme/clean-blog)
+@font-face {
+  font-family: "CalifornianSignature";
+  src: url("../fonts/CalifornianSignature.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}* Start Bootstrap - Clean Blog v6.0.9 (https://startbootstrap.com/theme/clean-blog)
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE)
 */
@@ -10805,22 +10810,10 @@ header.masthead .post-heading .meta a {
   background-image: none !important;
 }.
 .navbar-brand {
-  font-family: "Mickelhokan", cursive !important;
-  font-weight: 300 !important; /* less 
-@font-face {
-  font-family: "Mickelhokan";
-  src: url("../fonts/Mickelhokan.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-#mainNav .navbar-brand {
-  font-family: "Mickelhokan", cursive !important;
-  font-weight: 300 !important;
-}
-/* FORCE navbar brand font */
-.navbar .navbar-brand {
-  font-family: "Mickelhokan", cursive !important;
-  font-weight: 300 !important;
-  font-size: 2rem !important;
-}
+/* Top-left site title */
+.navbar-brand {
+  font-family: "CalifornianSignature", cursive !important;
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+} 
