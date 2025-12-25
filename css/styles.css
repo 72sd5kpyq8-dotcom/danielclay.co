@@ -10833,3 +10833,20 @@ header.masthead .post-heading .meta a {
 hr {
   border-color: rgba(255, 255, 255, 0.4);
 }
+  /* Make all post text white */
+.post-preview a,
+.post-preview a:focus,
+.post-preview a:hover {
+  color: #ffffff !important;
+}
+
+.post-preview > .post-subtitle,
+.post-preview > .post-meta,
+.post-preview > .post-meta a {
+  color: #ffffff !important;
+}
+
+/* Make separators lighter */
+hr {
+  border-color: rgba(255, 255, 255, 0.4);
+}
